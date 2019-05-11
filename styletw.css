@@ -1,0 +1,217 @@
+body {
+	margin: 0;
+	color:#393939;
+	/*background-color:#fffef7;*/
+}
+
+div{
+	/*background-color: #fffef0;*/
+	padding: 7px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+div x {
+  transition: 0.3s;
+}
+
+p {
+	color: #393939;
+	font-size: 37px;
+}
+
+p1 {
+  color: #fffef7;
+  font-size: 27px;
+}
+
+p2 {
+  color: #393939;
+  font-size: 21px;
+}
+
+p3 {
+  color: #393939;
+  font-size: 27px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #393939;
+	position: fixed;
+	width: 100%;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: #fffef7;
+	text-align: center;
+	padding: 14px 77px;
+	text-decoration: none;
+	background: #393939;
+  font-size: 37px;
+}
+
+li b {
+  display: block;
+  color: #fffef7;
+  text-align: center;
+  text-decoration: none;
+  background: #393939;
+  transition: 0.3s;
+}
+
+li a:hover {
+	background-color: #272727;
+}
+
+li a:hover:not(.active) {
+	background-color: #474747;
+}
+
+/*li b:hover {
+  background-color: #272727;
+}
+
+li b:hover:not(.active) {
+  background-color: #474747;
+}*/
+
+.active {
+	background-color: #171717;
+}
+
+.header {
+  transition: 0.3s;
+}
+
+/* Sidebar */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(57, 57, 57, 0);
+  overflow-x: hidden;
+  transition: 0.37s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 37px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/* End of Sidebar */
+
+/* Multiple Tabs */
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+.row {
+  display: flex;
+}
+
+/*Two equal columns that sit next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+.column1 {
+  flex: 70%;
+  padding: 10px;
+}
+
+.column2 {
+  flex: 30%;
+  padding: 10px;
+}
+
+.column3 {
+  flex: 100%;
+  padding: 10px;
+}
+
+.footer {
+   left: 0;
+   bottom: 0;
+   height: 17%;
+   width: 100%;
+   background-color: #373737;
+   color: #fffef7;
+   text-align: center;
+}
+
+.centeredtext {
+  text-align: center;
+}
+
+.boxtext {
+  text-align: justify;
+}
+
+/* Style the tab content (and add height:100% for full page content)
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: #fffef7;}
+#News {background-color: #fffef7;}
+#Contact {background-color: #fffef7;}
+#About {background-color: #fffef7;}
+End of Multiple Tabs */
